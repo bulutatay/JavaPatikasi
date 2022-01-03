@@ -1,3 +1,5 @@
+package TemelKavramlar;
+
 import java.util.Scanner;
 
 public class NotOrtalamasi {
@@ -20,8 +22,8 @@ public class NotOrtalamasi {
         System.out.print("Müzik Notunuzu Giriniz: ");
         muzik = input.nextInt();
 
-        int toplam = mat + fizik + kimya + turkce + tarih + muzik;
-        double sonuc = toplam / 6;
+        double toplam = mat + fizik + kimya + turkce + tarih + muzik;
+        double sonuc = (toplam / 6);
         String durum = sonuc >= 60 ? "Geçtiniz" : "Geçemediniz";
 
         System.out.println("Not Ortalamanız: " + sonuc);
