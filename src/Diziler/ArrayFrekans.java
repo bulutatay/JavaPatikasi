@@ -10,7 +10,7 @@ public class ArrayFrekans {
         Arrays.fill(visited, false);
 
         System.out.print("Dizi : ");
-        for (int k : list){
+        for (int k : list) {
             System.out.print(k + " ");
         }
         System.out.println();
